@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background: #6C7878;
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    padding: 8px 120px;
+    align-items: center;
+}
+
+.header .logo {
+    font-weight: 800;
+    color: #F1F3EF;
+    font-family: "BebasNeue";
+    font-size: 32px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F1F3EF;
+    margin: 0;
+    font-size: 18px;
+}
+
+.links {
+    display: flex;
+    gap: 32px;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.content .one {
+    background-color: #6C7878;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 120px;
+    color: #F1F3EF;
+}
+
+.content .one .container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 40%;
+}
+
+.one button {
+    background-color: #c6ccc8;
+    border: none;
+    padding: 8px 0;
+    font-size: 18px;
+    border-radius: 60px;
+}
+
+.content .one .title {
+    font-size: 52px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 24px;
+}
+
+.content .one .image {
+    border-radius: 16px;
+    flex: 1;
+    max-width: fit-content;
+}
+
+.content .two {
+    color: #161B19;
+    background: #D4D9D4;
+    text-align: center;
+    padding: 80px 120px;
+}
+
+.content .two .title {
+    font-family: "BebasNeue";
+    font-size: 32px;
+    padding-bottom: 32px;
+}
+
+.content .two .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 32px 0px;
+    font-size: 24px;
+}
+
+.content .two .info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.content .two .image {
+    width: 250px;
+    border-radius: 16px;
+}
+
+.three {
+    background-color: #6C7878;
+    padding: 80px 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#quote {
+    font-size: 32px;
+}
+
+#figure {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: end;
+}
+
+.four {
+    padding: 80px 120px;
+}
+
+.cta {
+    background-color: #161B19;
+    color: #D4D9D4;
+    margin: 0px 320px;
+    padding: 32px 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.cta #header {
+    font-size: 32px;
+}
+
+.cta #text {
+    font-size: 24px;
+}
+
+.cta button {
+    background-color: #161B19;
+    color: #F1F3EF;
+    border-color: #D4D9D4;
+    font-size: 24px;
+    border-radius: 24px;
+    padding: 8px 24px;
+}
+
+
+.footer {
+    background: #6c7878;
+    font-size: 18px;
+    text-align: center;
+    padding: 24px 0px;
+}
